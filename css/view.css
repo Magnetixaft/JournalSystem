@@ -75,17 +75,19 @@ html, body {
     position: relative;
     
   }
-
-  #signInContainer {
-    margin-top: 12%;
-
-    background-color: blueviolet;
-  }
-.input-group {
-  justify-content: center;
-  padding: 3%;
+#navContainer {
+    height: 8rem;
+    display: flex;
+}
+.navbar {
+    height: inherit;
+    padding: 20px;
 }
 
+.container-fluid {
+    background-color: white;
+    border: 1px solid black;
+}
 
   
   
