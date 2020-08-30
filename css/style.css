@@ -1,0 +1,212 @@
+/*-- Reset --*/
+html, body {
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+    color: #000000;
+  }
+  
+
+  #logInContainer {
+      position: fixed;
+      align-content: center;
+  }
+  
+  /* Navigation */
+  
+  .navbar {
+    height: 6%;
+    color: #000000;
+    background-color: #FFCE33 ;
+    border-bottom: #000000;
+  
+  }
+  #navbarNavAltMarkup {
+    background-color: #FFCE33;
+    width: 100%;
+    
+    outline: #000000;
+  }
+  
+  .jumbotron {
+    background-color: #DEDEDE;
+    padding: 1rem 0 .5rem;
+    border-radius: 0;
+  }
+  
+
+  
+  .tabs {
+    margin: 2px 5px 0px 5px;
+    padding-bottom: 10px;
+    cursor: pointer
+  }
+  
+  .tabs:hover,
+  .tabs.active {
+    border-bottom: 1px solid #2196F3
+  }
+  
+  .btn-primary {
+    background-color: #FFCE33 !important;
+    color: #000000 !important;
+    border-color: #000000 !important;
+  
+  }
+  
+  .btn-primary:active {
+    background-color: #000000 !important;
+    color: #FFCE33 !important;
+    border-color: #FFCE33 !important;
+  }
+  
+  
+  .fixed-background {
+    padding: 15rem 0;
+    border-top: .05rem solid #000000;
+    border-bottom: .05rem solid #000000;
+    size: 10%;
+  
+  }
+  .fixed {
+    background-image: url('../img/backgroundTest.svg');
+    position: relative;
+    
+  }
+  
+  
+  /*============= MEDIA QUERIES =============*/
+  
+  
+  @media screen and (min-width: 767.98px) {
+    div {
+      font-size: 2rem;
+    }
+    
+    h1 {
+      font-size: 3rem;
+    }
+  
+    .navbar-brand {
+      font-size: 1.5rem;
+    }
+  
+    h5 {
+      font-size: 2rem;
+    }
+    
+    li {
+      font-size: 1.7rem;
+    }
+    button {
+      font-size: 1.7rem;
+    }
+    p {
+      font-size: 1.3rem;
+    }
+    
+  }
+  
+  @media only screen and (min-width: 991.98px) {
+    div {
+      font-size: 3rem;
+    }
+    
+    h1 {
+      font-size: 4rem;
+    }
+  
+    .navbar-brand {
+      font-size: 2.4rem;
+    }
+  
+    h5 {
+      font-size: 2.5rem;
+    }
+    
+    li {
+      font-size: 2rem;
+    }
+    button {
+      font-size: 2rem;
+    }
+    a {
+      font-size: 2rem;
+    }
+    p {
+      font-size: 1.8rem;
+    }
+    
+  }
+  
+  @media only screen and (min-width: 1199.98px) {
+  
+    div {
+      font-size: 3rem;
+    }
+    
+    h1 {
+      font-size: 4rem;
+    }
+  
+    .navbar-brand {
+      font-size: 2.4rem;
+    }
+  
+    h5 {
+      font-size: 2.5rem;
+    }
+    
+    li {
+      font-size: 2rem;
+    }
+    button {
+      font-size: 2rem;
+    }
+    a {
+      font-size: 2rem;
+    }
+    p {
+      font-size: 1.8rem;
+    }
+    
+  }
+  
+  
+  
+  /*-- Bootstrap Mobile Gutter Fix --*/
+  .row, .container-fluid {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+  
+  /*-- Fixed Background Image --*/
+  .fixed-background {
+    position: relative;
+    width: 100%;
+    z-index: 1000!important;
+  }
+  .fixed-wrap {
+    clip: rect(0, auto, auto, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -999 !important;
+  }
+  .fixed {
+    z-index: -999!important;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    will-change: transform;
+  }
