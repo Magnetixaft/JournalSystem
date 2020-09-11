@@ -71,16 +71,24 @@ html, body {
   
   }
   .fixed {
-    background-image: url('../img/backgroundTest.svg');
+    background-image: url('../img/qoutLineFinal.png');
     position: relative;
     
   }
-
+#signInTopBar{
+  position: fixed;
+  text-align: center;
+  background-color: #000000;
+  
+}
   #signInContainer {
     margin-top: 12%;
 
-    background-color: blueviolet;
+    background-color: #000000;
   }
+#signInLabel{
+  color: #FFCE33;
+}
 .input-group {
   justify-content: center;
   padding: 3%;

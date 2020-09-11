@@ -89,6 +89,11 @@ html, body {
     border: 1px solid black;
 }
 
+#dateRow{
+  justify-items: left;
+  
+}
+
   
   
   
